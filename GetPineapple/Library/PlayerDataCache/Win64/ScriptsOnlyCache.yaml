@@ -20,6 +20,7 @@ ScriptsOnlyBuild:
     - PigMoving
     - PlayerLife
     - PlayerMovement
+    - PlayerMovement2P
     - RadishAI
     - RockHead
     - Rotate
@@ -92,7 +93,10 @@ ScriptsOnlyBuild:
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
-    methodName: StartGame
+    methodName: To1PMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: StartMenu
+    methodName: To2PMenu
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
     methodName: QuitGame
@@ -111,6 +115,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
     methodName: LoadStage
+  - assembly: Assembly-CSharp
+    fullTypeName: StartMenu
+    methodName: BacktoStart
+  - assembly: Assembly-CSharp
+    fullTypeName: StartMenu
+    methodName: LoadScene2P
+  - assembly: Assembly-CSharp
+    fullTypeName: StartMenu
+    methodName: BacktoStart
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
@@ -125,19 +138,13 @@ ScriptsOnlyBuild:
     methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
     methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
+    methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: LoadMenu
@@ -147,6 +154,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: LoadMenu
@@ -159,7 +172,65 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: EndMenu
     methodName: Quit
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
   sceneClasses:
+    Assets/Scenes/Choose2P.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 2914}
+    - Class: 114
+      Script: {instanceID: 3180}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
+      Script: {instanceID: 6388}
+    - Class: 114
+      Script: {instanceID: 6760}
+    - Class: 114
+      Script: {instanceID: 7376}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
     Assets/Scenes/ChooseStage.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -431,7 +502,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 25988}
+      Script: {instanceID: 146794}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -540,9 +611,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 25988}
+      Script: {instanceID: 146794}
     - Class: 114
-      Script: {instanceID: 25990}
+      Script: {instanceID: 147316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -653,9 +724,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 25988}
+      Script: {instanceID: 146794}
     - Class: 114
-      Script: {instanceID: 25990}
+      Script: {instanceID: 147316}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -770,9 +841,110 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 25988}
+      Script: {instanceID: 146794}
     - Class: 114
-      Script: {instanceID: 25990}
+      Script: {instanceID: 147316}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 251
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Stage2P 1.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 644}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 2248}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 2914}
+    - Class: 114
+      Script: {instanceID: 3174}
+    - Class: 114
+      Script: {instanceID: 3180}
+    - Class: 114
+      Script: {instanceID: 3298}
+    - Class: 114
+      Script: {instanceID: 3322}
+    - Class: 114
+      Script: {instanceID: 4320}
+    - Class: 114
+      Script: {instanceID: 5404}
+    - Class: 114
+      Script: {instanceID: 6388}
+    - Class: 114
+      Script: {instanceID: 6480}
+    - Class: 114
+      Script: {instanceID: 6760}
+    - Class: 114
+      Script: {instanceID: 7376}
+    - Class: 114
+      Script: {instanceID: 8028}
+    - Class: 114
+      Script: {instanceID: 8050}
+    - Class: 114
+      Script: {instanceID: 8098}
+    - Class: 114
+      Script: {instanceID: 35176}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -2021,14 +2193,22 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: c9bedda6148ef392f12e4303e9e034d1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovement2P
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start.unity
   - Assets/Scenes/ChooseStage.unity
+  - Assets/Scenes/Choose2P.unity
   - Assets/Scenes/Stage 1.unity
   - Assets/Scenes/Stage 2.unity
   - Assets/Scenes/Stage 3.unity
   - Assets/Scenes/Stage 4.unity
   - Assets/Scenes/Stage 5.unity
   - Assets/Scenes/Completed.unity
+  - Assets/Scenes/Stage2P 1.unity
   playerPath: C:/Users/Lenovo/Desktop/Game/GetPineapple.exe

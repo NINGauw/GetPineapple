@@ -16,6 +16,10 @@ public class StartMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Stage " + stage);
     }
+    public void LoadScene2P(string stage)
+    {
+        SceneManager.LoadScene("Stage2P " + stage);
+    }
     public void To2PMenu()
     {
         SceneManager.LoadScene("Choose2P");
