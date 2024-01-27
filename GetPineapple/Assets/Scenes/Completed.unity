@@ -262,7 +262,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -140}
+  m_AnchoredPosition: {x: 0, y: -134}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &60633331
@@ -405,8 +405,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11, y: 59}
-  m_SizeDelta: {x: 637.6532, y: 88.7715}
+  m_AnchoredPosition: {x: 0, y: 90}
+  m_SizeDelta: {x: 710.6152, y: 89.719}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &160586814
 MonoBehaviour:
@@ -441,7 +441,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Kh\xE1 z"
+  m_Text: 'Completed
+
+    Thanks for playing'
 --- !u!222 &160586815
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -644,7 +646,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9, y: -16}
+  m_AnchoredPosition: {x: 0, y: -20}
   m_SizeDelta: {x: 134.1944, y: 139.5373}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &592698807
@@ -877,7 +879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 14, y: 173}
+  m_AnchoredPosition: {x: 0, y: 178}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1667430930

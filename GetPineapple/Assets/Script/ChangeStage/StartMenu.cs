@@ -4,13 +4,21 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class StartMenu : MonoBehaviour
 {
-    public void StartGame()
+    public void To1PMenu()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("ChooseStage");
+    }
+    public void BacktoStart()
+    {
+        SceneManager.LoadScene("Start");
     }
     public void LoadStage(string stage)
     {
         SceneManager.LoadScene("Stage " + stage);
+    }
+    public void To2PMenu()
+    {
+        SceneManager.LoadScene("Choose2P");
     }
     public void QuitGame()
     {
