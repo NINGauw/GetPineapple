@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - EndMenu
     - FakeBrick
     - FinishStage
+    - FinishStage2P
     - FlatformMoving
     - GhostAI
     - ItemCollector
@@ -96,7 +97,7 @@ ScriptsOnlyBuild:
     methodName: To1PMenu
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
-    methodName: To2PMenu
+    methodName: ToScene
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
     methodName: QuitGame
@@ -115,6 +116,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
     methodName: LoadStage
+  - assembly: Assembly-CSharp
+    fullTypeName: StartMenu
+    methodName: BacktoStart
+  - assembly: Assembly-CSharp
+    fullTypeName: StartMenu
+    methodName: To2PMenu
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
     methodName: BacktoStart
@@ -125,38 +132,8 @@ ScriptsOnlyBuild:
     fullTypeName: StartMenu
     methodName: BacktoStart
   - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
+    fullTypeName: StartMenu
+    methodName: LoadScene2P
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
@@ -169,6 +146,39 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: EndMenu
     methodName: Quit
@@ -181,6 +191,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: EndMenu
+    methodName: Quit
   sceneClasses:
     Assets/Scenes/Choose2P.unity:
     - Class: 1
@@ -281,6 +303,55 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/Completed.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 2914}
+    - Class: 114
+      Script: {instanceID: 3180}
+    - Class: 114
+      Script: {instanceID: 4152}
+    - Class: 114
+      Script: {instanceID: 6388}
+    - Class: 114
+      Script: {instanceID: 6760}
+    - Class: 114
+      Script: {instanceID: 7376}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Completed2P.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -502,7 +573,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 146794}
+      Script: {instanceID: 29196}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -611,9 +682,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 146794}
+      Script: {instanceID: 29196}
     - Class: 114
-      Script: {instanceID: 147316}
+      Script: {instanceID: 59026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -724,9 +795,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 146794}
+      Script: {instanceID: 29196}
     - Class: 114
-      Script: {instanceID: 147316}
+      Script: {instanceID: 59026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -841,9 +912,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 146794}
+      Script: {instanceID: 29196}
     - Class: 114
-      Script: {instanceID: 147316}
+      Script: {instanceID: 59026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -928,7 +999,104 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4320}
     - Class: 114
-      Script: {instanceID: 5404}
+      Script: {instanceID: 6388}
+    - Class: 114
+      Script: {instanceID: 6480}
+    - Class: 114
+      Script: {instanceID: 6760}
+    - Class: 114
+      Script: {instanceID: 7376}
+    - Class: 114
+      Script: {instanceID: 8028}
+    - Class: 114
+      Script: {instanceID: 8050}
+    - Class: 114
+      Script: {instanceID: 8098}
+    - Class: 114
+      Script: {instanceID: 9554}
+    - Class: 114
+      Script: {instanceID: 27396}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 251
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Stage2P 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 644}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 2248}
+    - Class: 114
+      Script: {instanceID: 2878}
+    - Class: 114
+      Script: {instanceID: 2914}
+    - Class: 114
+      Script: {instanceID: 3174}
+    - Class: 114
+      Script: {instanceID: 3180}
+    - Class: 114
+      Script: {instanceID: 3298}
+    - Class: 114
+      Script: {instanceID: 3322}
     - Class: 114
       Script: {instanceID: 6388}
     - Class: 114
@@ -944,7 +1112,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8098}
     - Class: 114
-      Script: {instanceID: 35176}
+      Script: {instanceID: 9554}
+    - Class: 114
+      Script: {instanceID: 27396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -974,6 +1144,55 @@ ScriptsOnlyBuild:
     - Class: 1839735485
       Script: {instanceID: 0}
     Assets/Scenes/Start.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 2914}
+    - Class: 114
+      Script: {instanceID: 3180}
+    - Class: 114
+      Script: {instanceID: 3200}
+    - Class: 114
+      Script: {instanceID: 6388}
+    - Class: 114
+      Script: {instanceID: 6760}
+    - Class: 114
+      Script: {instanceID: 7376}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Tutorial2P.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -2159,6 +2378,12 @@ ScriptsOnlyBuild:
     className: SpriteSkinComposite
   - hash:
       serializedVersion: 2
+      Hash: f6ba2372e61b566890104431f6b91e41
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovement2P
+  - hash:
+      serializedVersion: 2
       Hash: 02a47340661d2ea7c6d30e292cfef403
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -2195,14 +2420,15 @@ ScriptsOnlyBuild:
     className: UnityOnSliderValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: c9bedda6148ef392f12e4303e9e034d1
+      Hash: 971ef9005a00f8b3599f8b27483683a1
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: PlayerMovement2P
+    className: FinishStage2P
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start.unity
   - Assets/Scenes/ChooseStage.unity
+  - Assets/Scenes/Tutorial2P.unity
   - Assets/Scenes/Choose2P.unity
   - Assets/Scenes/Stage 1.unity
   - Assets/Scenes/Stage 2.unity
@@ -2211,4 +2437,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Stage 5.unity
   - Assets/Scenes/Completed.unity
   - Assets/Scenes/Stage2P 1.unity
+  - Assets/Scenes/Stage2P 2.unity
+  - Assets/Scenes/Completed2P.unity
   playerPath: C:/Users/Lenovo/Desktop/Game/GetPineapple.exe
