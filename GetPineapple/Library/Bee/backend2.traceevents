@@ -1,419 +1,436 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1706422436437621, "dur":23674, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706422436461303, "dur":188, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706422436461554, "dur":391, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706422436462120, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level10" }}
-,{ "pid":12345, "tid":0, "ts":1706422436461970, "dur":5756, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706422436467728, "dur":3157527, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706422439625257, "dur":310, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706422439625698, "dur":3699, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1706422436462077, "dur":5657, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1706422436467736, "dur":5616, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1706422436476521, "dur":1001, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":1, "ts":1706422436477527, "dur":3388, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706422436480931, "dur":11682, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1706422436492618, "dur":8655, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":1, "ts":1706422436477526, "dur":24181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706422436502017, "dur":155, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1706422436502641, "dur":226358, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706422436733759, "dur":82, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706422436733758, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706422436733861, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1706422436735096, "dur":2890193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436462110, "dur":5635, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436467748, "dur":1030, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436468778, "dur":4585, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436473366, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1706422436473506, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436475456, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":2, "ts":1706422436477169, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1706422436477262, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436477803, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1706422436480660, "dur":10407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436491152, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436491319, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436493987, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436494325, "dur":2733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436497140, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436497381, "dur":1579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436499014, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436499184, "dur":2425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436501661, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436501830, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436503890, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436504108, "dur":3834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436508007, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436508090, "dur":4691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436512902, "dur":5280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436518305, "dur":3986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436522359, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436522584, "dur":2801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436525451, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436525632, "dur":51, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1706422436525701, "dur":2255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1706422436528052, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets9.assets" }}
-,{ "pid":12345, "tid":2, "ts":1706422436530120, "dur":6101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":2, "ts":1706422436536286, "dur":6367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":2, "ts":1706422436542729, "dur":12892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets11.assets" }}
-,{ "pid":12345, "tid":2, "ts":1706422436555702, "dur":12511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level8" }}
-,{ "pid":12345, "tid":2, "ts":1706422436568354, "dur":6156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1706422436574557, "dur":3050708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436462101, "dur":5638, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436467742, "dur":1032, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436468774, "dur":4593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436473369, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1706422436477915, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":3, "ts":1706422436479863, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1706422436480031, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1706422436481509, "dur":376, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436481921, "dur":5234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436487273, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436487382, "dur":5858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436493505, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436496149, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436498015, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436501556, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436501891, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Burst.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436503572, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436503663, "dur":2977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436506705, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436506991, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436511372, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436511609, "dur":3694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436515376, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436515524, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436519000, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436519294, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436522366, "dur":4151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436526579, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436529842, "dur":52, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1706422436526674, "dur":3326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1706422436530086, "dur":10020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets7.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1706422436540173, "dur":2982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets12.assets" }}
-,{ "pid":12345, "tid":3, "ts":1706422436543220, "dur":15751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1706422436559079, "dur":14600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level3" }}
-,{ "pid":12345, "tid":3, "ts":1706422436573747, "dur":3051512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706422436462139, "dur":5612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706422436467753, "dur":975, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706422436468728, "dur":4630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706422436473626, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436473711, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436473782, "dur":235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436474018, "dur":434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436474453, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436474570, "dur":89, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436474660, "dur":388, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436475050, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436475138, "dur":108, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436475247, "dur":279, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436475527, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436475722, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436476020, "dur":150, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436476172, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436476258, "dur":720, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436476980, "dur":368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436477350, "dur":103, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1706422436477526, "dur":55, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
-,{ "pid":12345, "tid":4, "ts":1706422436477628, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\PackageCache\\com.unity.burst@1.8.11\\.Runtime\\bcl.exe" }}
-,{ "pid":12345, "tid":4, "ts":1706422436473361, "dur":4351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":4, "ts":1706422436478184, "dur":65, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1706422436481114, "dur":3121539, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
-,{ "pid":12345, "tid":4, "ts":1706422439608158, "dur":17058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Plugins/x86_64/lib_burst_generated.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436462212, "dur":5545, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436467759, "dur":1031, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436468791, "dur":4571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436473364, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1706422436474932, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":5, "ts":1706422436477067, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1706422436477163, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436478038, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1706422436480144, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1706422436480646, "dur":11026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":5, "ts":1706422436491731, "dur":646, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436492394, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436492460, "dur":5173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436497689, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436497893, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436500593, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436502468, "dur":392, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436502885, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436504613, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436504754, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436507955, "dur":3796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436511802, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436511880, "dur":4527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436516544, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436516859, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436522446, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436525616, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436522579, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436525923, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1706422436532674, "dur":147, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1706422436528526, "dur":4333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets8.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1706422436533085, "dur":9562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":5, "ts":1706422436542772, "dur":19631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets10.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1706422436562499, "dur":11051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level12" }}
-,{ "pid":12345, "tid":5, "ts":1706422436573595, "dur":3051657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436462242, "dur":5521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436467765, "dur":933, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436468699, "dur":4756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436473456, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1706422436478758, "dur":1740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1706422436480580, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436480723, "dur":10232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436491016, "dur":187, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436491214, "dur":207, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436491425, "dur":3154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436494676, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436494854, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436497131, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436499222, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436499692, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436501869, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436502049, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436504325, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436504438, "dur":2679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436507237, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436510259, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436510495, "dur":4089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436514705, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436514864, "dur":3233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436518151, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436518299, "dur":4120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436522473, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436522631, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436524926, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436525100, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436526856, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436529892, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436526974, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1706422436530094, "dur":5827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets7.assets" }}
-,{ "pid":12345, "tid":6, "ts":1706422436535993, "dur":7882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":6, "ts":1706422436543934, "dur":2956, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436546913, "dur":9018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":6, "ts":1706422436556004, "dur":6583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level6" }}
-,{ "pid":12345, "tid":6, "ts":1706422436562677, "dur":976, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1706422436563657, "dur":9994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level11" }}
-,{ "pid":12345, "tid":6, "ts":1706422436573714, "dur":3051568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706422436462308, "dur":5461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706422436467771, "dur":965, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706422436468736, "dur":4621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706422436473368, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706422436474199, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/app.info" }}
-,{ "pid":12345, "tid":7, "ts":1706422436476719, "dur":115, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":7, "ts":1706422436476717, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1706422436476837, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1706422436477480, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1706422436480123, "dur":46565, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":7, "ts":1706422436480122, "dur":46567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple.exe" }}
-,{ "pid":12345, "tid":7, "ts":1706422436526745, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple.exe" }}
-,{ "pid":12345, "tid":7, "ts":1706422436528134, "dur":2067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets8.resource" }}
-,{ "pid":12345, "tid":7, "ts":1706422436530289, "dur":7262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1706422436537665, "dur":5621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets13.assets" }}
-,{ "pid":12345, "tid":7, "ts":1706422436543410, "dur":15797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1706422436559302, "dur":14385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level13" }}
-,{ "pid":12345, "tid":7, "ts":1706422436573728, "dur":3051535, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436462332, "dur":5445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436467779, "dur":995, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436468775, "dur":4596, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436473372, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1706422436473521, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436477671, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":8, "ts":1706422436479895, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1706422436480379, "dur":1598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1706422436482037, "dur":1573, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436490073, "dur":259, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436483650, "dur":7116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436490894, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436491230, "dur":3191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436494520, "dur":320, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436494900, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436498305, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436498529, "dur":2648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436501306, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436503501, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436503656, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436505668, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436505757, "dur":3707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436509587, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436513603, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436513699, "dur":4359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436518121, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436518290, "dur":3765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436522176, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436523570, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436523815, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436527632, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436527750, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1706422436530107, "dur":7462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets6.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1706422436543661, "dur":145, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436537660, "dur":6212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":8, "ts":1706422436543934, "dur":2901, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1706422436546878, "dur":9070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1706422436556019, "dur":9291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level5" }}
-,{ "pid":12345, "tid":8, "ts":1706422436565373, "dur":8533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1706422436573967, "dur":3051302, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436462355, "dur":5428, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436467786, "dur":971, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436468758, "dur":4602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436473372, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":9, "ts":1706422436473361, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":9, "ts":1706422436476178, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":9, "ts":1706422436477577, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
-,{ "pid":12345, "tid":9, "ts":1706422436477575, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1706422436477927, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":9, "ts":1706422436479681, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1706422436479898, "dur":1264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":9, "ts":1706422436481215, "dur":619, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436481868, "dur":10770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436492735, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436492893, "dur":5231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436498205, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436498552, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.PixelPerfect.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436501025, "dur":230, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436501274, "dur":1790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436503183, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436503297, "dur":1641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436504989, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436505268, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436507960, "dur":4010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436512037, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436512196, "dur":3485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436515784, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436515887, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436519498, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436519650, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436522523, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436522700, "dur":2816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436525575, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":9, "ts":1706422436525695, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436527962, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436527960, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436528118, "dur":56310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":9, "ts":1706422436584470, "dur":3040792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436462428, "dur":5363, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436467793, "dur":1021, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436468814, "dur":4555, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436473383, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1706422436473370, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1706422436475230, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1706422436476952, "dur":114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1706422436476950, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1706422436477067, "dur":302, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436477562, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":10, "ts":1706422436479981, "dur":201, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436479978, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436480184, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436480370, "dur":16541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436499933, "dur":92, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436497079, "dur":2958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436500104, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436500241, "dur":2050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436502347, "dur":510, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436502877, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436504476, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436504730, "dur":3220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436508069, "dur":5006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436513143, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436513354, "dur":4241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436517662, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436517845, "dur":3460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436521371, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436521441, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436523229, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436523364, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436526233, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":10, "ts":1706422436526397, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":10, "ts":1706422436529608, "dur":7848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets7.resource" }}
-,{ "pid":12345, "tid":10, "ts":1706422436537638, "dur":5136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1706422436542897, "dur":10338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":10, "ts":1706422436553311, "dur":5786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level9" }}
-,{ "pid":12345, "tid":10, "ts":1706422436559170, "dur":6131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level2" }}
-,{ "pid":12345, "tid":10, "ts":1706422436565367, "dur":8466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level1" }}
-,{ "pid":12345, "tid":10, "ts":1706422436573880, "dur":3051370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436462464, "dur":5338, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436467804, "dur":649, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436468453, "dur":4912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436473379, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":11, "ts":1706422436473367, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1706422436475165, "dur":1704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":11, "ts":1706422436476917, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1706422436477018, "dur":366, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436477588, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":11, "ts":1706422436479863, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1706422436479861, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1706422436480022, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":11, "ts":1706422436481389, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436490058, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436481751, "dur":8447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436490361, "dur":3301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436493765, "dur":5347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436499242, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436499743, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.Common.Runtime.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436501899, "dur":1919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436503871, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436504129, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436506756, "dur":219, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436506996, "dur":4328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436511391, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436511616, "dur":4104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436515833, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436515929, "dur":5352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436521396, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436522920, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436522996, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436525971, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436529773, "dur":362, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436526111, "dur":4035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":11, "ts":1706422436530224, "dur":7217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets5.resource" }}
-,{ "pid":12345, "tid":11, "ts":1706422436537546, "dur":5407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":11, "ts":1706422436543031, "dur":12624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":11, "ts":1706422436555757, "dur":6934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level7" }}
-,{ "pid":12345, "tid":11, "ts":1706422436562754, "dur":823, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":11, "ts":1706422436563585, "dur":9959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level10" }}
-,{ "pid":12345, "tid":11, "ts":1706422436573615, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":11, "ts":1706422436574819, "dur":3050448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436462492, "dur":5314, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436467807, "dur":5552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436473375, "dur":129, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1706422436473362, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1706422436473506, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436476874, "dur":3017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":12, "ts":1706422436479942, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436479939, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436480315, "dur":2812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436483210, "dur":382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436483643, "dur":7417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436491137, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436491249, "dur":2532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436493836, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436494293, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436496981, "dur":1312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Burst.Unsafe.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436498351, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436498535, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Collections.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436501197, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436501331, "dur":2051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436503504, "dur":1849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436505405, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436505515, "dur":3992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436509649, "dur":4997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436514712, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436514844, "dur":5262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436520157, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436520229, "dur":1398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436521708, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436521915, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436523581, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436523819, "dur":2194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436526079, "dur":248, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436526368, "dur":2889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":12, "ts":1706422436534739, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":12, "ts":1706422436529352, "dur":5481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets8.assets" }}
-,{ "pid":12345, "tid":12, "ts":1706422436534937, "dur":7786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets4.resource" }}
-,{ "pid":12345, "tid":12, "ts":1706422436542810, "dur":10117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets10.assets" }}
-,{ "pid":12345, "tid":12, "ts":1706422436553202, "dur":4969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":12, "ts":1706422436558291, "dur":9931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level4" }}
-,{ "pid":12345, "tid":12, "ts":1706422436568367, "dur":10440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":12, "ts":1706422436578859, "dur":3046398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1706422439634760, "dur":1457, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1706443695232821, "dur":71, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695232931, "dur":24786, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695257743, "dur":374, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695258201, "dur":61, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1706443695258263, "dur":614, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695259092, "dur":140, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1706443695259237, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1706443695259306, "dur":124, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level10" }}
+,{ "pid":12345, "tid":0, "ts":1706443695259597, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level2" }}
+,{ "pid":12345, "tid":0, "ts":1706443695259682, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level3" }}
+,{ "pid":12345, "tid":0, "ts":1706443695259741, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level4" }}
+,{ "pid":12345, "tid":0, "ts":1706443695260256, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1706443695265887, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1706443695258946, "dur":7425, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695266373, "dur":258721, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695525098, "dur":449, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695525583, "dur":135, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695525738, "dur":67, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695525876, "dur":2672, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1706443695259055, "dur":7324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706443695266382, "dur":7621, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706443695274016, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1706443695280078, "dur":794, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1706443695280879, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706443695281001, "dur":94, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1706443695280878, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706443695282084, "dur":94, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1706443695282655, "dur":234614, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706443695521707, "dur":2277, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706443695521706, "dur":2279, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1706443695524000, "dur":1000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1706443695259181, "dur":7212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695266395, "dur":1313, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695267709, "dur":6321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695274044, "dur":138, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706443695274033, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706443695276439, "dur":14632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706443695291132, "dur":118, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706443695291130, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706443695292367, "dur":14819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1706443695307434, "dur":6682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695314200, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695314294, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695316661, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695319006, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695324637, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695327029, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695327144, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695329919, "dur":2835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695332816, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695332907, "dur":2125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695335096, "dur":365, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695335485, "dur":2374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695337920, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695338068, "dur":4202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695342380, "dur":560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695342963, "dur":3800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695346894, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695346998, "dur":4335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695351426, "dur":143, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695351593, "dur":4176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695355836, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695356044, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695358596, "dur":423, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1706443695359069, "dur":5332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1706443695364560, "dur":2317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":2, "ts":1706443695367747, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":2, "ts":1706443695372193, "dur":5064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets14.assets" }}
+,{ "pid":12345, "tid":2, "ts":1706443695377355, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1706443695381274, "dur":12491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1706443695393938, "dur":5619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level11" }}
+,{ "pid":12345, "tid":2, "ts":1706443695399653, "dur":125443, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695259094, "dur":7292, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695266389, "dur":1275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695267664, "dur":6376, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695274041, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1706443695279377, "dur":53955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1706443695336744, "dur":173, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695333625, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695337056, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695337205, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695337278, "dur":3177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695340532, "dur":288, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695340843, "dur":2981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695343889, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695343970, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695347773, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695347875, "dur":89, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695347968, "dur":7829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695355872, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695356048, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695358578, "dur":443, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1706443695359073, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695362294, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695362292, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695362539, "dur":60102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1706443695422685, "dur":102432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695259237, "dur":7162, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695266401, "dur":1328, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695267729, "dur":6288, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695274037, "dur":286, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1706443695274021, "dur":303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1706443695279215, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1706443695282781, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1706443695282778, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1706443695282968, "dur":10515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1706443695293544, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1706443695295395, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1706443695297457, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1706443695308637, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695298052, "dur":10709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1706443695308941, "dur":5907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695314910, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695315004, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695315061, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695318089, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695320034, "dur":118, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695318184, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695321063, "dur":6615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695327769, "dur":210, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695327999, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695330433, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695330644, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695333436, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695335615, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695335704, "dur":1948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695337721, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695337812, "dur":3829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695341704, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695342004, "dur":5187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695347258, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695347351, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695347421, "dur":3572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695351062, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695351200, "dur":3932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695355299, "dur":2600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695357964, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695358174, "dur":3533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695361768, "dur":180, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1706443695361966, "dur":3016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1706443695365052, "dur":5118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1706443695370264, "dur":4172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1706443695374557, "dur":3755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":4, "ts":1706443695378395, "dur":3739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1706443695382208, "dur":15457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1706443695397787, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1706443695400304, "dur":124804, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695259408, "dur":7000, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695266411, "dur":1303, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695267715, "dur":6311, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695274030, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1706443695274224, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695277747, "dur":42163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1706443695321240, "dur":357, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695321645, "dur":3717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695325535, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695328021, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695330712, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695333690, "dur":377, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695336615, "dur":168, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695334092, "dur":2704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695336870, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695337222, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695340516, "dur":603, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695341142, "dur":6481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695347697, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695347890, "dur":4411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695352366, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695352521, "dur":3741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695356375, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695356431, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695359395, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1706443695362822, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":5, "ts":1706443695369920, "dur":107, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695365605, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":5, "ts":1706443695370173, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":5, "ts":1706443695375487, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1706443695370427, "dur":5385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":5, "ts":1706443695376018, "dur":4338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":5, "ts":1706443695380465, "dur":2346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level9" }}
+,{ "pid":12345, "tid":5, "ts":1706443695382896, "dur":11467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1706443695394446, "dur":5576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level10" }}
+,{ "pid":12345, "tid":5, "ts":1706443695400070, "dur":125040, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695259449, "dur":6967, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695266418, "dur":1309, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695267728, "dur":6294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695274025, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1706443695276838, "dur":12870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1706443695289774, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1706443695289984, "dur":38710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1706443695328766, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695329069, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695331353, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695331449, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695334531, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695334692, "dur":2282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695337039, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695337207, "dur":131, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695337342, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695341014, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695344850, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695345248, "dur":4344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695349659, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695349771, "dur":2545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695352380, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695356271, "dur":134, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695352526, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695356535, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695356657, "dur":3411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695360130, "dur":221, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1706443695360387, "dur":4835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1706443695365613, "dur":5033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1706443695370763, "dur":4271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":6, "ts":1706443695375134, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":6, "ts":1706443695380399, "dur":1798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1706443695382291, "dur":12686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1706443695395103, "dur":2540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1706443695397767, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1706443695400338, "dur":124768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706443695259486, "dur":6939, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706443695266428, "dur":1218, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706443695267646, "dur":6364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706443695274026, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706443695275134, "dur":6258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1706443695281397, "dur":140, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":7, "ts":1706443695281395, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1706443695282101, "dur":11359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1706443695293525, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1706443695293830, "dur":2989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1706443695296909, "dur":164677, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":7, "ts":1706443695296886, "dur":164702, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple.exe" }}
+,{ "pid":12345, "tid":7, "ts":1706443695461589, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1706443695461688, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple.exe" }}
+,{ "pid":12345, "tid":7, "ts":1706443695462907, "dur":62191, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706443695259526, "dur":6907, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706443695266436, "dur":1366, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706443695267802, "dur":6213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1706443695274035, "dur":207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1706443695274018, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1706443695278276, "dur":132367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1706443695410723, "dur":114378, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695259566, "dur":6874, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695266442, "dur":1304, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695267747, "dur":6289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695274047, "dur":164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706443695274037, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706443695274213, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695277378, "dur":14046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706443695291486, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706443695291484, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706443695291601, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695292441, "dur":18373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1706443695311104, "dur":776, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695311988, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695315281, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695315433, "dur":91, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695315528, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695318644, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695318797, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695320884, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695320969, "dur":3554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695324656, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695327019, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695327136, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695329946, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695332208, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695332283, "dur":2182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695334538, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695334701, "dur":3214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695337984, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695341654, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695338103, "dur":3627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695341811, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695342013, "dur":4608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695346721, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695346960, "dur":6326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695353373, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695353473, "dur":3483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695357040, "dur":201, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695357266, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695360129, "dur":222, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695360377, "dur":4175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1706443695364752, "dur":2687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":9, "ts":1706443695371374, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1706443695367570, "dur":3910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":9, "ts":1706443695371628, "dur":5900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":9, "ts":1706443695377643, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1706443695380960, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level8" }}
+,{ "pid":12345, "tid":9, "ts":1706443695384893, "dur":14263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level13" }}
+,{ "pid":12345, "tid":9, "ts":1706443695399234, "dur":125859, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695259652, "dur":6795, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695266451, "dur":1387, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695267839, "dur":6194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695274039, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1706443695276504, "dur":14103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1706443695290668, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1706443695291169, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1706443695295562, "dur":123, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695295559, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695296212, "dur":18662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695314953, "dur":153, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695315143, "dur":3279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695318542, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695320412, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695320478, "dur":4300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695324838, "dur":284, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695325147, "dur":2309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695327518, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695327754, "dur":2367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695330211, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695330316, "dur":3120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695333584, "dur":53, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695333641, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695336139, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695336400, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695339083, "dur":285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695339391, "dur":3879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695343347, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695343585, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695347838, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695347960, "dur":8003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695356027, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695356291, "dur":125, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695356419, "dur":3699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695360185, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695360409, "dur":4345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1706443695364879, "dur":7198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":10, "ts":1706443695375636, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1706443695372212, "dur":3515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":10, "ts":1706443695375836, "dur":3649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets10.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1706443695379672, "dur":4413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1706443695384292, "dur":10591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level14" }}
+,{ "pid":12345, "tid":10, "ts":1706443695394982, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1706443695397124, "dur":5729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1706443695402895, "dur":122202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695259770, "dur":6684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695266457, "dur":876, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695267333, "dur":6708, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695274042, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1706443695276865, "dur":4813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1706443695281745, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1706443695281866, "dur":236, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695282233, "dur":8887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1706443695291176, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1706443695292370, "dur":1400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1706443695293865, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.17f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695293862, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695293983, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695295377, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695299259, "dur":9811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695309172, "dur":66, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695309242, "dur":8374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695317731, "dur":2766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695324149, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695320644, "dur":3612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695324357, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695324461, "dur":2200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695326786, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695328603, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695328803, "dur":2206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695331069, "dur":356, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695331471, "dur":3425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695334962, "dur":162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695335148, "dur":2511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695337729, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695337829, "dur":4045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695341932, "dur":580, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695342536, "dur":4614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695347228, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695347374, "dur":3199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695350641, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695350752, "dur":4397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695355231, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695355447, "dur":2887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695358407, "dur":613, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695359080, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695362068, "dur":337, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695362432, "dur":3157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1706443695365748, "dur":5695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":11, "ts":1706443695371570, "dur":6411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1706443695378071, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1706443695381730, "dur":12005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level6" }}
+,{ "pid":12345, "tid":11, "ts":1706443695399437, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1706443695393866, "dur":5673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level12" }}
+,{ "pid":12345, "tid":11, "ts":1706443695399625, "dur":125465, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695259961, "dur":6513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695266474, "dur":7538, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695274384, "dur":179, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695274565, "dur":120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695274687, "dur":358, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695275047, "dur":696, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695275746, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695275924, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695276049, "dur":528, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695276580, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695276702, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695276857, "dur":395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695277254, "dur":216, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695277472, "dur":485, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695277959, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695278169, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695278280, "dur":919, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695279202, "dur":704, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695279908, "dur":183, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695280186, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"ProjectSettings\\BurstAotSettings_StandaloneWindows.json" }}
+,{ "pid":12345, "tid":12, "ts":1706443695280303, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Lenovo\\Documents\\GitHub\\GetPineapple\\GetPineapple\\Library\\PackageCache\\com.unity.burst@1.8.11\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":12, "ts":1706443695274016, "dur":6362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":12, "ts":1706443695280380, "dur":559, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695282856, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695283555, "dur":50559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695336639, "dur":425, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695334179, "dur":2901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695337205, "dur":3276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695340551, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695340717, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695343483, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695343591, "dur":4019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695347689, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695347881, "dur":74, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695355252, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695347959, "dur":7375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695355396, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695355535, "dur":2523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695358180, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695361377, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695361546, "dur":2968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1706443695364599, "dur":2851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets8.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1706443695367563, "dur":3838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1706443695371579, "dur":7123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":12, "ts":1706443695378766, "dur":387, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1706443695379177, "dur":2684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1706443695382023, "dur":15674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Lenovo/Desktop/Game/GetPineapple_Data/level5" }}
+,{ "pid":12345, "tid":12, "ts":1706443695397766, "dur":127325, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1706443695531901, "dur":2083, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

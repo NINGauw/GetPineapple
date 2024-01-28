@@ -133,37 +133,22 @@ ScriptsOnlyBuild:
     methodName: LoadScene2P
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
+    methodName: LoadScene2P
+  - assembly: Assembly-CSharp
+    fullTypeName: StartMenu
     methodName: BacktoStart
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
     methodName: LoadScene2P
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
     methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
     methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: LoadMenu
@@ -175,6 +160,9 @@ ScriptsOnlyBuild:
     methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
     methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
@@ -182,6 +170,21 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: EndMenu
     methodName: Quit
@@ -200,6 +203,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
@@ -585,7 +597,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 27730}
+      Script: {instanceID: 35188}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -696,9 +708,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 27730}
+      Script: {instanceID: 35188}
     - Class: 114
-      Script: {instanceID: 27732}
+      Script: {instanceID: 35190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -809,9 +821,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 27730}
+      Script: {instanceID: 35188}
     - Class: 114
-      Script: {instanceID: 27732}
+      Script: {instanceID: 35190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -926,9 +938,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 27730}
+      Script: {instanceID: 35188}
     - Class: 114
-      Script: {instanceID: 27732}
+      Script: {instanceID: 35190}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1230,6 +1242,119 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6762}
     - Class: 114
       Script: {instanceID: 7378}
+    - Class: 114
+      Script: {instanceID: 8030}
+    - Class: 114
+      Script: {instanceID: 8052}
+    - Class: 114
+      Script: {instanceID: 8100}
+    - Class: 114
+      Script: {instanceID: 9556}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 251
+      Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
+    - Class: 156049354
+      Script: {instanceID: 0}
+    - Class: 483693784
+      Script: {instanceID: 0}
+    - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/Stage2P 4.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 66
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 644}
+    - Class: 114
+      Script: {instanceID: 1580}
+    - Class: 114
+      Script: {instanceID: 1582}
+    - Class: 114
+      Script: {instanceID: 2248}
+    - Class: 114
+      Script: {instanceID: 2422}
+    - Class: 114
+      Script: {instanceID: 2914}
+    - Class: 114
+      Script: {instanceID: 2988}
+    - Class: 114
+      Script: {instanceID: 3174}
+    - Class: 114
+      Script: {instanceID: 3180}
+    - Class: 114
+      Script: {instanceID: 3298}
+    - Class: 114
+      Script: {instanceID: 3322}
+    - Class: 114
+      Script: {instanceID: 3972}
+    - Class: 114
+      Script: {instanceID: 4068}
+    - Class: 114
+      Script: {instanceID: 4180}
+    - Class: 114
+      Script: {instanceID: 4558}
+    - Class: 114
+      Script: {instanceID: 5406}
+    - Class: 114
+      Script: {instanceID: 5658}
+    - Class: 114
+      Script: {instanceID: 6390}
+    - Class: 114
+      Script: {instanceID: 6482}
+    - Class: 114
+      Script: {instanceID: 6762}
+    - Class: 114
+      Script: {instanceID: 7378}
+    - Class: 114
+      Script: {instanceID: 7646}
     - Class: 114
       Script: {instanceID: 8030}
     - Class: 114
@@ -2562,5 +2687,6 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Stage2P 1.unity
   - Assets/Scenes/Stage2P 2.unity
   - Assets/Scenes/Stage2P 3.unity
+  - Assets/Scenes/Stage2P 4.unity
   - Assets/Scenes/Completed2P.unity
   playerPath: C:/Users/Lenovo/Desktop/Game/GetPineapple.exe

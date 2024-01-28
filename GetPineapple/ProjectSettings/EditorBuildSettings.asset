@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage2P 3.unity
     guid: 4c56d6d26aa532443a74c5295f80a671
   - enabled: 1
+    path: Assets/Scenes/Stage2P 4.unity
+    guid: 25eac440397b2de4f90a6dc4b9591f86
+  - enabled: 1
     path: Assets/Scenes/Completed2P.unity
     guid: bc71f56cc3313b54f8598566dd47b286
   m_configObjects: {}
