@@ -118030,6 +118030,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6670210372138076789, guid: 1d15e47a3fe9dd4409084f38bcb8d530, type: 3}
+      propertyPath: PineappleCount
+      value: 
+      objectReference: {fileID: 1666959825}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

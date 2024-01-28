@@ -31,7 +31,7 @@ public class SpikeHead : MonoBehaviour
     }
     private void CheckForPlayer()
     {
-        LayerMask mask = playerLayer & ~LayerMask.GetMask("Ground");
+        LayerMask mask = playerLayer;
         CalculateDirection();
         //Kiểm tra xem spikehead có thấy người chơi không (4 hướng trái phải trên dưới)
         for(int i = 0; i <directions.Length; i++)
@@ -76,7 +76,13 @@ public class SpikeHead : MonoBehaviour
         if(collider.gameObject.name == "Player")
         {   
             player.Die();
-        }
+           
+        } 
+        if(collider.gameObject.name == "Player1" || collider.gameObject.name == "Player2")
+        {   
+            player.Die();
+           
+        } 
         Stop();
         if(collider.gameObject.tag == "Enemy")
         {
