@@ -15,6 +15,7 @@ public class PlayerMovement2P : MonoBehaviour
     [SerializeField] public int playerNumber = 1; // 1 hoặc 2
     [SerializeField] private LayerMask jumpableGround;
     [SerializeField] private LayerMask GreenPig;
+    [SerializeField] private LayerMask jumpablePlayer;
     [SerializeField] private float jumpHigh = 12f;
     [SerializeField] private float speed = 7f;
     [SerializeField] private AudioSource JumpingSound;
@@ -40,12 +41,25 @@ public class PlayerMovement2P : MonoBehaviour
         dirX = Input.GetAxis(movementAxisName);
         player.velocity = new Vector2(dirX * speed, player.velocity.y);
         //Nhảy
-        if (Input.GetButtonDown(jumpButtonName) && IsGrounded() || IsGreenPig())
-        {   
-            JumpingSound.Play();
-            player.velocity = new Vector2(player.velocity.x, jumpHigh);
-            
+        if(playerNumber == 2)
+        {
+             if (Input.GetButtonDown(jumpButtonName) && (IsGrounded() || IsPlayer1()) || IsGreenPig())
+            {   
+                JumpingSound.Play();
+                player.velocity = new Vector2(player.velocity.x, jumpHigh);
+                
+            }
         }
+        else if(playerNumber == 1)
+        {
+             if (Input.GetButtonDown(jumpButtonName) && (IsGrounded() || IsPlayer2()) || IsGreenPig())
+            {   
+                JumpingSound.Play();
+                player.velocity = new Vector2(player.velocity.x, jumpHigh);
+                
+            }
+        }
+       
         UpdateAnimation();
     }
     //Quản lý trạng thái(status) của animation
@@ -77,6 +91,12 @@ public class PlayerMovement2P : MonoBehaviour
     //Hàm kiểm tra xem Player có va chạm với Ground hay không, để đặt điều kiện cho hành động nhảy
     private bool IsGrounded(){
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
+    }
+    private bool IsPlayer1(){
+        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpablePlayer);
+    }
+    private bool IsPlayer2(){
+        return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, jumpablePlayer);
     }
     private bool IsGreenPig(){
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.down, .1f, GreenPig);
