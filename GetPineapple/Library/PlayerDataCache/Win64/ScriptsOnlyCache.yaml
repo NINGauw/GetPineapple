@@ -33,7 +33,6 @@ ScriptsOnlyBuild:
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
-    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.SpriteSkinComposite
     - UnityEngine.U2D.Animation.SpriteSkinUpdateHelper
     Unity.2D.IK.Editor.dll:
@@ -41,6 +40,7 @@ ScriptsOnlyBuild:
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridBrushEditor
+    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
     - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -140,21 +140,6 @@ ScriptsOnlyBuild:
     methodName: LoadScene2P
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: QuitGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
     methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
@@ -162,6 +147,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: RestartGame
@@ -174,6 +165,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
@@ -191,10 +191,19 @@ ScriptsOnlyBuild:
     methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
+    methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: LoadMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
     methodName: LoadMenu
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
+  - assembly: Assembly-CSharp
+    fullTypeName: UIManager
+    methodName: RestartGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: QuitGame
@@ -204,15 +213,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: LoadMenu
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: RestartGame
-  - assembly: Assembly-CSharp
-    fullTypeName: UIManager
-    methodName: QuitGame
   - assembly: Assembly-CSharp
     fullTypeName: UIManager
     methodName: LoadMenu
@@ -595,7 +595,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 33670}
+      Script: {instanceID: 30338}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -706,9 +706,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 33670}
+      Script: {instanceID: 30338}
     - Class: 114
-      Script: {instanceID: 34196}
+      Script: {instanceID: 30862}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -819,9 +819,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 33670}
+      Script: {instanceID: 30338}
     - Class: 114
-      Script: {instanceID: 34196}
+      Script: {instanceID: 30862}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -936,9 +936,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8100}
     - Class: 114
-      Script: {instanceID: 33670}
+      Script: {instanceID: 30338}
     - Class: 114
-      Script: {instanceID: 34196}
+      Script: {instanceID: 30862}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1331,8 +1331,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3298}
     - Class: 114
       Script: {instanceID: 3322}
-    - Class: 114
-      Script: {instanceID: 3972}
     - Class: 114
       Script: {instanceID: 4068}
     - Class: 114
